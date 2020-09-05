@@ -65,7 +65,6 @@ def link_result_mean(input_file_list,out_file):
 if __name__ == '__main__':
 
     link_result_mean([
-
         'result/eval_bert_loss_final_0.json',
         'result/eval_bert_loss_final_1.json',
         'result/eval_bert_loss_final_2.json',

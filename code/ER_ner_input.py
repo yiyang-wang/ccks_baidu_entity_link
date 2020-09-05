@@ -147,7 +147,7 @@ def get_input_bert_test(input_file,out_file,max_len=52):
 if __name__ == '__main__':
 
     get_input_bert('original_data/train.json','data/input_train_ner.pkl')
-    # get_input_bert_test('original_data/develop.json', 'data/input_test_ner.pkl')
-    get_input_bert_test('original_data/eval722.json', 'data/input_eval_ner.pkl')
+    get_input_bert_test('original_data/develop.json', 'data/input_test_ner.pkl')
+    # get_input_bert_test('original_data/eval722.json', 'data/input_eval_ner.pkl')
 
     pass
